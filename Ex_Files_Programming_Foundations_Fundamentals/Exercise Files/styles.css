@@ -1,0 +1,27 @@
+*{
+    color: red;
+}
+h1{
+    color: blue;
+}
+h2{
+    color:purple;
+}
+.title{
+    background-color: orange;
+}
+#main_head{
+    font-style: italic;
+}
+.title2{
+    color: black;
+}
+.title.title2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container p{
+    color: blue;
+}
+.container code{
+    color: orange;
+}

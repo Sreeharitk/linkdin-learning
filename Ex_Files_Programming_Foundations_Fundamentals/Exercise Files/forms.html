@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+    <head>
+        <title>Forms for days</title>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width = device-width, initial-scale = 1"/>
+    </head>
+    <body>
+        <main>
+            <header>
+                <h1>Welcome to forms</h1>
+            </header>
+            <form>
+                <section id="forms">
+                    <label for="name">Name</label>
+                    <input name="name" id="name" type="text" value="Sreehari"/>
+                    <label for="email">Email</label>
+                    <input name="email" id="email" type="email" required placeholder="me@example.com"/><br>
+                    <label for="phone">Phone</label>
+                    <input name="phone" id="phone" type="tel">
+                    <label for="password">Password</label>
+                    <input id="password" type="password" name="Password" required><br>
+                    <label for="date">Date of Birth</label>
+                    <input id="date" type="date" name="Date of Birth">
+                    <label for="search">Search here</label>
+                    <input id="search" type="search" name="Search here" value="&#128270;"><br>
+                    <label for="color">Color</label>
+                    <input id="color" type="color" name="Color"><br>
+                    <textarea id="textarea" cols="30" rows="20"></textarea><br>
+                    <label for="file">Insert here</label>
+                    <input id="file" type="file" accept="image/*" multiple><br>
+                    <input id="s-checkbox" type="checkbox" checked value="It has been checked">
+                    <label for="s-checkbox">Check here</label><br>
+                    <label for="favorite car">Favorite Car</label>
+                    <select id="favorite car" name="Favorite Car">
+                        <option>Lambo</option>
+                        <option>Ferrari</option>
+                    </select><br>
+                    <fieldset>
+                        <legend>Select you poison</legend>
+                        <input id="first" type="radio" name="radiolist" checked value="Car">
+                        <label for="first">Car</label>
+                        <input id="second" type="radio" name="radiolist" value="Truck">
+                        <label for="second">Truck</label>
+                    </fieldset>
+                    <button type="submit">Click Me</button>
+                </section>
+                <section id="tables">
+                    <table border="">
+                        <tr>
+                            <th>Fruit</th>
+                            <th>prices</th>
+                        </tr>
+                        <tr>
+                            <td>Mango</td>
+                            <td>20rs</td>
+                        </tr>
+                        <tr>
+                            <td>Apple</td>
+                            <td>25rs</td>
+                        </tr>
+                    </table>
+                </section>
+            </form>
+        </main>
+    </body>
+</html>
