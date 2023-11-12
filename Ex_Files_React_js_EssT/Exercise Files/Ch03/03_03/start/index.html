@@ -35,6 +35,18 @@
         );
       }
 
+      function Dishes(props){
+        return(
+          <section>
+            <ul>
+              {props.dishes.map(dish => 
+                  <li>{dish}</li>
+                )}
+            </ul>
+          </section>
+        )
+      }
+
       function Footer(props) {
         return (
           <footer>
@@ -43,11 +55,18 @@
         );
       }
 
+      const dishes = [
+        "Biriyani",
+        "Meals",
+        "Mandhi"
+      ]
+
       function App() {
         return (
           <div>
             <Header name="Cindy" />
             <Main adjective="amazing" />
+            <Dishes dishes = {dishes} />
             <Footer
               year={new Date().getFullYear()}
             />
